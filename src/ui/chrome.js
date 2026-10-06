@@ -51,6 +51,7 @@ function headerHTML(here) {
       <img src="${BRAND.logo}" alt="${BRAND.short || ''}" class="site-logo-img" />
     </a>
     <nav class="nav" aria-label="Main navigation">${links}</nav>
+    <a href="contact.html" class="btn header__cta">Send an enquiry <span class="arrow" aria-hidden="true">→</span></a>
     <button class="burger" data-burger aria-label="Toggle mobile menu" aria-expanded="false" aria-controls="mobile-drawer"><span></span><span></span><span></span></button>
   </div>`;
 }
